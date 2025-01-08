@@ -17,5 +17,5 @@ npm install --save-dev react-csfilegrid
 - overrideFileClass?: string: Override the class used for the individual files. See .FileGridFile and .FileGridSelectedFile for the default styles.
 
 # Example
-- See ..
+- See https://github.com/sidfishus/react-cscarousel/blob/main/src/TestApp.tsx
 - See TestApp.tsx in this repository.

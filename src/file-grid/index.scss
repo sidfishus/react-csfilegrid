@@ -1,0 +1,30 @@
+
+.FileGridContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.FileGridFile {
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 5px;
+
+  border: white solid 1.5px;
+  box-shadow: 0 0 0 1px black;
+  margin: 10px;
+
+  cursor: pointer;
+
+  object-fit: contain;
+}
+
+.FileGridSelectedFile {
+  @extend .FileGridFile;
+
+  box-shadow: 0 0 0 4px black;
+  cursor: default;
+}

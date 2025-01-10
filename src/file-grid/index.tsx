@@ -2,7 +2,7 @@
 import {ReactNode} from "react";
 import "./index.scss";
 
-type FileGridProps = {
+export type FileGridProps = {
     fileDir?: string;
     files: string[];
     onClick?: (fileIndex: number)=>void;

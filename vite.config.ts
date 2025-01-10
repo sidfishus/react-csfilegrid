@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       name: "react-filegrid",
-      entry: ["src/index.tsx"],
+      entry: ["src/file-grid/index.tsx"],
     },
     rollupOptions: {
       external: ["react", "react-dom","react/jsx-runtime"],

@@ -3,7 +3,7 @@
   "repository": "sidfishus/react-csfilegrid",
   "author": "sidfishus",
   "description": "A responsive re-usable react file grid component.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "license": "GPL-3.0",
   "types": "./dist/index.d.ts",
@@ -32,8 +32,8 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
